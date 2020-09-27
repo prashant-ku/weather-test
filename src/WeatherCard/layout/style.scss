@@ -1,0 +1,23 @@
+@import "../../theme/color.scss";
+
+.reports{
+  width: 100vw;
+  padding: 20px;
+  text-align: left;
+  .report-box{
+    margin: 10px 20px 15px 20px;
+    width: 14vw;
+    min-height: 48px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 5px 20px;
+    display: inline-flex;
+    .report-box-item {
+      display: flex;
+      align-items: center;
+      padding: 5px 0;
+     
+    }
+  }
+
+}
